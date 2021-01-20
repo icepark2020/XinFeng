@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/19/2020 20:33:56" ReportInfo.Modified="10/20/2020 11:57:46" ReportInfo.CreatorVersion="2017.1.16.0">
+  <Dictionary>
+    <Parameter Name="C1" DataType="System.Char"/>
+    <Parameter Name="C2" DataType="System.Char"/>
+    <Parameter Name="C3" DataType="System.Char"/>
+    <Parameter Name="C4" DataType="System.Char"/>
+    <Parameter Name="C5" DataType="System.Char"/>
+    <Parameter Name="C6" DataType="System.Char"/>
+    <Parameter Name="dizhi" DataType="System.String"/>
+    <Parameter Name="name" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="110" PaperHeight="220" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0" TitleBeforeHeader="false">
+    <DataBand Name="Data1" Width="415.8" Height="831.6" DataSource="">
+      <TextObject Name="Text1" Left="332.64" Top="56.7" Width="37.8" Height="28.35" EvenStylePriority="UseAll" CanBreak="false" Text="[C1]" Format="Number" Format.UseLocale="true" VertAlign="Bottom" Angle="90" WordWrap="false" Font="宋体, 18pt, style=Bold"/>
+      <TextObject Name="Text2" Left="332.64" Top="94.5" Width="37.8" Height="28.35" CanBreak="false" Text="[C2]" Format="Number" Format.UseLocale="true" VertAlign="Bottom" Angle="90" WordWrap="false" Font="宋体, 18pt, style=Bold"/>
+      <TextObject Name="Text3" Left="332.64" Top="132.3" Width="37.8" Height="28.35" CanBreak="false" Text="[C3]" Format="Number" Format.UseLocale="true" VertAlign="Bottom" Angle="90" WordWrap="false" Font="宋体, 18pt, style=Bold"/>
+      <TextObject Name="Text4" Left="332.64" Top="170.1" Width="37.8" Height="28.35" CanBreak="false" Text="[C4]" Format="Number" Format.UseLocale="true" VertAlign="Bottom" Angle="90" WordWrap="false" Font="宋体, 18pt, style=Bold"/>
+      <TextObject Name="Text5" Left="332.64" Top="207.9" Width="37.8" Height="28.35" CanBreak="false" Text="[C5]" Format="Number" Format.UseLocale="true" VertAlign="Bottom" Angle="90" WordWrap="false" Font="宋体, 18pt, style=Bold"/>
+      <TextObject Name="Text6" Left="332.64" Top="245.7" Width="37.8" Height="28.35" CanBreak="false" Text="[C6]" Format="Number" Format.UseLocale="true" VertAlign="Bottom" Angle="90" WordWrap="false" Font="宋体, 18pt, style=Bold"/>
+      <TextObject Name="Text7" Left="207.9" Top="56.7" Width="103.95" Height="349.65" CanShrink="true" Text="[dizhi]" Angle="90" Font="宋体, 16pt, style=Bold" TabWidth="65"/>
+      <TextObject Name="Text8" Left="170.1" Top="321.3" Width="60.48" Height="179.55" CanBreak="false" Text="[name]" HorzAlign="Center" VertAlign="Center" Angle="90" WordWrap="false" Font="隶书, 28pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>
